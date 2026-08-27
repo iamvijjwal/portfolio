@@ -1,0 +1,217 @@
+/* GENERAL */
+body {
+  background: linear-gradient(90deg, #BE8CEF 0%, rgba(61, 46, 232, 0.83) 100%);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  }
+*{
+  font-family: Arial, sans-serif;
+  
+}   
+/* SIDE NAVIGATION */
+.side-nav{
+    position: fixed;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background: #3a3a3a;
+    padding: 25px 25px;
+    border-radius: 20px;
+}
+.nav-icon {
+    border: 2.5px solid transparent;
+}
+.nav-icon:hover, .nav-icon.active {
+    color: #00dfd8;
+    border-radius: 5px;
+    border-color: #00dfd8;
+}
+
+/* MAIN DIV */
+.container {
+  display: inline-flex;
+  width: 80%;
+  height: 75%;
+  color: white;
+}
+
+/* DIV LEFT */
+.profile{
+    background-color: #333; 
+  color: white;
+  padding: 20px;
+  height: auto;
+  width: 25%;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1%;
+}
+.profile-pic-container{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.profile-pic-container img {
+  margin-top: 30%;
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+  display: block;
+}
+.social-icons img {
+  width: 30px;
+  margin: 0 10px;
+  border-radius: 2px;
+}
+.social-icons:hover img{
+  transform: scale(1.1);
+}
+.social-icons img:hover{
+  transform: scale(1.2);
+}
+.btn{
+  padding-top: 10%;
+}
+#download-btn {
+  background-color: #0072ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#download-btn:hover {
+  background-color: #005bb5;
+  font-weight: bold;
+}
+
+/* DIV RIGHT */
+.content {
+    background-image: url('bg2.jpg');
+    background-size:cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+    display: inline-block;
+    overflow-x: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.portfolio h1 {
+    font-size: 36px;
+    margin: 0;
+    }
+.portfolio p {
+    font-size: 18px;
+    margin: 10px;
+    }
+#home {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about {
+  display: inline-flex;
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  /* margin: 0px auto; */
+  flex-direction:column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+/* EDUCATION */
+#edu {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-size:cover;
+  background-position: left;
+  background-repeat:no-repeat;
+  color: white;
+  border-radius: 10px;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+table {
+width: 100%;
+margin: 30px;
+padding: 10px;
+border: 2px solid;
+border-radius:10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(35, 94, 161);
+}
+table img{
+height: 100px;
+}
+th, td {
+border: 1px solid #5298da;
+border-radius: 10px;
+text-align: center;
+color: #000;
+background-color: rgba(255, 255, 255, 0.8);
+}
+td{
+font-size: larger;
+}
+
+
+.certi {
+    background-color: rgb(173, 30, 30);
+    padding: 15px;
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    overflow: auto;
+    scrollbar-width: none;
+    border-radius: 10px;
+}
+.certi div {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+}
+#section1 {
+    background-color: rgb(65, 25, 110);
+}
+#section2 {
+    background-color: rgb(173, 30, 30);
+}
+#section3 {
+    background-color: rgb(28, 102, 121);
+}
+#section4 {
+    background-color: burlywood;
+    color: black;
+}
+
