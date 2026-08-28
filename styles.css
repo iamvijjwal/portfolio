@@ -185,8 +185,8 @@ font-size: larger;
 .certi {
     background-color: rgb(173, 30, 30);
     padding: 15px;
-    width: auto;
-    height: auto;
+    width: 90-%;
+    height: 100%;
     display: inline-flex;
     overflow: auto;
     scrollbar-width: none;
