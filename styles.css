@@ -51,6 +51,7 @@ body {
   width: 25%;
   border-radius: 10px;
   display: inline-flex;
+  flex-direction:column;
   text-align: center;
   align-items: center;
   justify-content: center;
