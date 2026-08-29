@@ -45,33 +45,35 @@ body {
 
 /* DIV LEFT */
 .profile{
-    background-color: #333; 
+  background-color: #333; 
   color: white;
-  padding: 20px;
-  height: auto;
+  height: 100%;
   width: 25%;
   border-radius: 10px;
+  display: inline-flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-top: 1%;
+  overflow:none;
 }
 .profile-pic-container{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 100%;
+  height: auto;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
 }
 .profile-pic-container img {
-  margin-top: 30%;
-  width: 150%;
-  height: 150%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
   object-fit: cover;
   display: block;
+}
+.social-icons{
+  width: 100%;
+  height: auto;
 }
 .social-icons img {
   width: 30px;
