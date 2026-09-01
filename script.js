@@ -19,11 +19,11 @@ eduBtn.addEventListener("click", () => {
     certification.style.display = "none";
     home.style.display = "none";
 
-    eduBtn.classList.add("active-btn");
-    skillsBtn.classList.remove("active-btn");
-    projectBtn.classList.remove("active-btn");
-    activitiesBtn.classList.remove("active-btn");
-    certificationBtn.classList.remove("active-btn");
+    eduBtn.classList.add("active");
+    skillsBtn.classList.remove("active");
+    projectBtn.classList.remove("active");
+    activitiesBtn.classList.remove("active");
+    certificationBtn.classList.remove("active");
 });
 
 
@@ -35,11 +35,11 @@ skillsBtn.addEventListener("click", () => {
     certification.style.display = "none";
     home.style.display = "none";
 
-    eduBtn.classList.remove("active-btn");
-    skillsBtn.classList.add("active-btn");
-    projectBtn.classList.remove("active-btn");
-    activitiesBtn.classList.remove("active-btn");
-    certificationBtn.classList.remove("active-btn");
+    eduBtn.classList.remove("active");
+    skillsBtn.classList.add("active");
+    projectBtn.classList.remove("active");
+    activitiesBtn.classList.remove("active");
+    certificationBtn.classList.remove("active");
 });
 
 projectBtn.addEventListener("click", () => {
@@ -50,11 +50,11 @@ projectBtn.addEventListener("click", () => {
     certification.style.display = "none";
     home.style.display = "none";
 
-    eduBtn.classList.remove("active-btn");
-    skillsBtn.classList.remove("active-btn");
-    projectBtn.classList.add("active-btn");
-    activitiesBtn.classList.remove("active-btn");
-    certificationBtn.classList.remove("active-btn");
+    eduBtn.classList.remove("active");
+    skillsBtn.classList.remove("active");
+    projectBtn.classList.add("active");
+    activitiesBtn.classList.remove("active");
+    certificationBtn.classList.remove("active");
 });
 
 activitiesBtn.addEventListener("click", () => {
@@ -65,11 +65,11 @@ activitiesBtn.addEventListener("click", () => {
     certification.style.display = "none";
     home.style.display = "none";
 
-    eduBtn.classList.remove("active-btn");
-    skillsBtn.classList.remove("active-btn");
-    projectBtn.classList.remove("active-btn");
-    activitiesBtn.classList.add("active-btn");
-    certificationBtn.classList.remove("active-btn");
+    eduBtn.classList.remove("active");
+    skillsBtn.classList.remove("active");
+    projectBtn.classList.remove("active");
+    activitiesBtn.classList.add("active");
+    certificationBtn.classList.remove("active");
 });
 
 certificationBtn.addEventListener("click", () => {
@@ -80,9 +80,9 @@ certificationBtn.addEventListener("click", () => {
     certification.style.display = "flex";
     home.style.display = "none";
 
-    eduBtn.classList.remove("active-btn");
-    skillsBtn.classList.remove("active-btn");
-    projectBtn.classList.remove("active-btn");
-    activitiesBtn.classList.remove("active-btn");
-    certificationBtn.classList.add("active-btn");
+    eduBtn.classList.remove("active");
+    skillsBtn.classList.remove("active");
+    projectBtn.classList.remove("active");
+    activitiesBtn.classList.remove("active");
+    certificationBtn.classList.add("active");
 });
