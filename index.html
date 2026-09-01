@@ -1,157 +1,563 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Web Designer Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Vijjwal Kaushik - Web Designer and BCA Student">
+    <title>Vijjwal Kaushik | Web Designer Portfolio</title>
+
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    <div class="container">
-        <div class="profile">
+
+    <main class="container">
+
+        <!-- ================= PROFILE ================= -->
+        <aside class="profile">
+
             <div class="side-nav">
-                <a href="index.html"><img src="logo/home.png" alt="Home"></a>
+                <a href="index.html" aria-label="Home">
+                    <img src="logo/home.png" alt="Home">
+                </a>
             </div>
+
             <div class="profile-pic-container">
-                <img src="MyPicture.png">
+                <img src="MyPicture.png" alt="Portrait of Vijjwal Kaushik">
             </div>
-            <div> 
-                <h2><strong>VIJJWAL KAUSHIK</strong></h2>
-                <p><i>Web Designer</i></p> 
+
+            <div class="profile-info">
+                <h1>VIJJWAL KAUSHIK</h1>
+                <p>Web Designer</p>
             </div>
+
             <div class="social-icons">
-                <a href="https://linkedin.com/in/iamvijjwal" target="_blank"><img src="logo/linkedin.png" alt="LinkedIn"></a>
-                <a href="https://instagram.com/iamvijjwal" target="_blank"><img src="logo/insta.png" alt="Instagram"></a>
-                <a href="https://github.com/iamvijjwal" target="_blank"><img src="logo/github.svg.png" alt="X"></a>
+                <a href="https://linkedin.com/in/iamvijjwal"
+                   target="_blank">
+                    <img src="logo/linkedin.png" alt="LinkedIn">
+                </a>
+
+                <a href="https://instagram.com/iamvijjwal"
+                   target="_blank">
+                    <img src="logo/insta.png" alt="Instagram">
+                </a>
+
+                <a href="https://github.com/iamvijjwal"
+                   target="_blank">
+                    <img src="logo/github.svg.png" alt="GitHub">
+                </a>
             </div>
-            <div class="btn">
-                <a href="Vijjwal_Kaushik.pdf" download id="download-btn">Download CV</a>
-                <a href="contact.html" id="download-btn">Contact Me</a>
-              <p class="copyright">&copy; 2025 All rights reserved.</p>
+
+            <!-- Profile Buttons -->
+            <div class="profile-actions">
+                <a href="Vijjwal_Kaushik.pdf" download class="action-btn">
+                    Download CV
+                </a>
+
+                <a href="contact.html" class="action-btn contact-btn">
+                    Contact Me
+                </a>
             </div>
-        </div>
-        
-        <div class="btn-bg">
-            <div>
-                <button class="btn-2" id="edu-btn">EDUCATION</button>
-            </div>
-            <div>
-                <button class="btn-2" id="skills-btn">SKILLS</button>
-            </div>         
-            <div>
-                <button class="btn-2" id="project-btn">PROJECT</button>
-            </div>           
-            <div>
-                <button class="btn-2" id="activities-btn">ACTIVITIES</button>
-            </div>
-            <div>
-                <button class="btn-2" id="certification-btn">CERTIFICATES</button>
-            </div>
-        </div>
-        
-        <div class="content">
-            <div  class="portfolio" id="home">
-                <h1>Welcome to my Portfolio</h1>
-                <p>Hello! I am a motivated BCA student with a strong interest in the IT sector, 
-                actively seeking an internship to apply my academic knowledge and problem-solving abilities in a 
-                professional setting. Eager to gain hands-on experience and understand workplace dynamics, 
-                I am committed to contributing my best while acquiring valuable insights
-                and practical skills that will shape my future career in the industry</p>
-            </div>
-            <div id="edu">
-                <div class="timeline">
-                    <div class="cont left">
-                        <h3><a href="https://www.stanthonysfaridabad.org" target="_blank"><img src="logo/anthony.png" width="100" height="100"><br>St. Anthony's Secondary School | 2021</a></h3>
+
+            <p class="profile-copyright">
+                &copy; 2026 Vijjwal Kaushik
+            </p>
+
+        </aside>
+
+
+        <!-- ================= SECTION NAVIGATION ================= -->
+        <nav class="btn-bg" aria-label="Portfolio sections">
+
+            <button class="btn-2" id="edu-btn" type="button">
+                <span>🎓</span>
+                <span>EDUCATION</span>
+            </button>
+
+            <button class="btn-2" id="skills-btn" type="button">
+                <span>💻</span>
+                <span>SKILLS</span>
+            </button>
+
+            <button class="btn-2" id="project-btn" type="button">
+                <span>🚀</span>
+                <span>PROJECT</span>
+            </button>
+
+            <button class="btn-2" id="activities-btn" type="button">
+                <span>🏆</span>
+                <span>ACTIVITIES</span>
+            </button>
+
+            <button class="btn-2" id="certification-btn" type="button">
+                <span>📜</span>
+                <span>CERTIFICATES</span>
+            </button>
+
+        </nav>
+
+
+        <!-- ================= CONTENT ================= -->
+        <section class="content">
+
+            <!-- HOME -->
+            <div class="portfolio section" id="home">
+
+                <div class="hero-content">
+
+                    <span class="welcome-badge">WELCOME</span>
+
+                    <h2>My <span>Portfolio</span></h2>
+
+                    <p>
+                        Hello! I am a motivated BCA student with a strong interest
+                        in the IT sector, actively seeking opportunities to apply
+                        my academic knowledge and problem-solving abilities in a
+                        professional environment.
+                    </p>
+
+                    <p>
+                        I am eager to gain hands-on experience, understand workplace
+                        dynamics, contribute to meaningful projects, and develop
+                        practical skills that will shape my future career in the
+                        technology industry.
+                    </p>
+
+                    <div class="hero-tags">
+                        <span>Web Design</span>
+                        <span>Programming</span>
+                        <span>Problem Solving</span>
+                        <span>IT Enthusiast</span>
                     </div>
-                    <div class="cont right">
-                        <h3><a href="https://www.stjohnsschool.co.in" target="_blank"><img src="logo/johns.jpg" width="100" height="100"><br>St John's School | 2023</a></h3>
-                    </div>
-                    <div class="cont left">
-                        <h3><a href="https://www.davccfbd.ac.in" target="_blank"><img src="logo/dav.png" width="110" height="100"><br>DAV Centenary College | 2026</a></h3>
-                    </div>
+
                 </div>
-            </div>
-            <div class="certi" id="skills">
-                <h3>Technical Skills</h3>
-                    <ol>
-                        <li>Microsoft Office Suite: Word, Excel, PowerPoint, Outlook</li>
-                        <li>Network Administration and Cyber Security</li>
-                        <li>Programming Languages: HTML, CSS, C, Python</li>
-                        <li>Database Management: DBMS and Basic SQL</li>
-                    </ol>
-                    <h3>Soft Skills</h3>
-                    <ol type="A">
-                        <li>Teamwork and Leadership Skills</li>
-                        <li>Time Management, Responsibility, and Decision-Making</li>
-                        <li>Problem-Solving, Critical Thinking, and Analytical Thinking</li>
-                        <li>Creativity and Motivation</li>
-                    </ol>
-                    <h3>Experience With</h3>
-                    <ul>
-                        <li>Editing Applications: Canva, InShot, Picsart</li>
-                        <li>Online Meeting Platforms: Zoom, Microsoft Teams, Google Meet</li>
-                    </ul>
+
             </div>
 
-            <div class="certi" id="project">
-                <h3>Intern - Nutech Print Services, Faridabad, Haryana (June 2024 – July 2024)</h3>
-                    <ul>
-                        <li>Monitored and managed CCTV surveillance systems to ensure security and operational efficiency.</li>
-                        <li>Utilized Microsoft Office for documentation, data entry, and report generation.</li>
-                        <li>Assisted in production operations, ensuring smooth workflow and timely execution of tasks.</li>
-                        <li>Developed time management skills by coordinating multiple responsibilities within strict deadlines.</li>
-                        <li>Delivered conference presentations, improving communication and public speaking skills.</li>
-                    </ul>
-                    <h3>Project - Income Tax Calculator (2025)</h3>
-                    <ul>
-                        <li>Developed a web-based tool using HTML, CSS, and JavaScript to calculate income tax.</li>
-                        <li>Enabled users to input income and receive tax breakdown instantly.</li>
-                        <li>Focused on user experience, accuracy, and mobile responsiveness.</li>
-                    </ul>
+
+            <!-- ================= EDUCATION ================= -->
+            <div id="edu" class="section education-section">
+
+                <div class="section-heading">
+                    <span>MY JOURNEY</span>
+                    <h2>Education</h2>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item left">
+                        <div class="timeline-card">
+
+                            <img src="logo/anthony.png"
+                                 alt="St. Anthony's Secondary School">
+
+                            <div>
+                                <span class="year">2021</span>
+
+                                <h3>
+                                    <a href="https://www.stanthonysfaridabad.org"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        St. Anthony's Secondary School
+                                    </a>
+                                </h3>
+
+                                <p>Secondary Education</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="timeline-item right">
+                        <div class="timeline-card">
+
+                            <img src="logo/johns.jpg"
+                                 alt="St John's School">
+
+                            <div>
+                                <span class="year">2023</span>
+
+                                <h3>
+                                    <a href="https://www.stjohnsschool.co.in"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        St John's School
+                                    </a>
+                                </h3>
+
+                                <p>Senior Secondary Education</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="timeline-item left">
+                        <div class="timeline-card">
+
+                            <img src="logo/dav.png"
+                                 alt="DAV Centenary College">
+
+                            <div>
+                                <span class="year">2026</span>
+
+                                <h3>
+                                    <a href="https://www.davccfbd.ac.in"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        DAV Centenary College
+                                    </a>
+                                </h3>
+
+                                <p>Bachelor of Computer Applications (BCA)</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="certi" id="activities">
-                <h1>EXTRACURRICULAR ACTIVITIES</h1>
-                    <h3>Technicia Club | Student Co-ordinator (2024–2026)</h3>
-                    <ol type="I">
-                        <li>Served as a Student Coordinator for technical competitions.</li>
-                        <li>Assisted in planning, scheduling, and coordination with faculty and participants.</li>
-                        <li>Promoted the event and boosted student engagement.</li>
-                    </ol>
-                    <h3>Youth Red Cross | Co-ordinator (2024–2026)</h3>
-                    <ul style="list-style-type: square;">
-                        <li>Organized awareness campaigns and blood donation drives.</li>
-                        <li>Conducted workshops and first-aid training sessions.</li>
-                        <li>Led volunteer teams in social service projects.</li>
-                        <li>Promoted humanitarian values among students.</li>
-                    </ul>
-                    <h3>National Cadet Corps (NCC) | Junior Under Officer (J.U.O.)</h3>
-                    <p>2019–2021 (St. Anthony’s Secondary School) <br>2023–2026 (DAV Centenary College)</p>
-                    <ul>
-                        <li>Developed leadership and discipline through NCC training.</li>
-                        <li>Represented my institution in events and training camps.</li>
-                    </ul>
-                    <h3>Voter’s Club | Ambassador (2023–2024)</h3>
-                    <ul >
-                        <li>Spread awareness about the importance of voting.</li>
-                        <li>Performed street plays to educate the public on voting rights.</li>
-                    </ul>
-                    <h3>Fine Arts Club | Assistant Head (2023–2024)</h3>
-                    <ul>
-                        <li>Provided a platform for student creativity.</li>
-                        <li>Participated in competitions, including MDU Youth Fest.</li>
-                        <li>Helped organize and manage fine arts events.</li>
-                    </ul>  
+
+            <!-- ================= SKILLS ================= -->
+            <div id="skills" class="section skills-section">
+
+                <div class="section-heading">
+                    <span>WHAT I KNOW</span>
+                    <h2>Skills</h2>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon">💻</div>
+
+                        <h3>Technical Skills</h3>
+
+                        <ul>
+                            <li>Microsoft Office Suite</li>
+                            <li>Network Administration</li>
+                            <li>Cyber Security Fundamentals</li>
+                            <li>HTML & CSS</li>
+                            <li>C Programming</li>
+                            <li>Python</li>
+                            <li>DBMS & Basic SQL</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🧠</div>
+
+                        <h3>Soft Skills</h3>
+
+                        <ul>
+                            <li>Teamwork & Leadership</li>
+                            <li>Time Management</li>
+                            <li>Decision Making</li>
+                            <li>Problem Solving</li>
+                            <li>Critical Thinking</li>
+                            <li>Creativity</li>
+                            <li>Motivation</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🛠️</div>
+
+                        <h3>Experience With</h3>
+
+                        <ul>
+                            <li>Canva</li>
+                            <li>InShot</li>
+                            <li>Picsart</li>
+                            <li>Zoom</li>
+                            <li>Microsoft Teams</li>
+                            <li>Google Meet</li>
+                        </ul>
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="certi" id="certification">
-                <h1>CERTIFICATIONS & COURSES</h1>
-                    <h3>Python Programming (2024) - DAV Centenary College - Dreamer</h3>
-                    <p>A Python programming course was initiated in collaboration with DREAMER INFOTECH by DAV CENTENARY COLLEGE. I enrolled in these on-campus extra classes to enhance my learning. I gained a comprehensive understanding of the Python programming language.</p>
+
+            <!-- ================= PROJECT ================= -->
+            <div id="project" class="section project-section">
+
+                <div class="section-heading">
+                    <span>MY EXPERIENCE</span>
+                    <h2>Projects & Experience</h2>
+                </div>
+
+                <div class="project-grid">
+
+                    <article class="project-card">
+
+                        <div class="project-number">01</div>
+
+                        <span class="project-label">INTERNSHIP</span>
+
+                        <h3>
+                            Intern – Nutech Print Services
+                        </h3>
+
+                        <p class="project-date">
+                            Faridabad, Haryana · June 2024 – July 2024
+                        </p>
+
+                        <ul>
+                            <li>
+                                Monitored and managed CCTV surveillance systems
+                                to ensure security and operational efficiency.
+                            </li>
+
+                            <li>
+                                Utilized Microsoft Office for documentation,
+                                data entry and report generation.
+                            </li>
+
+                            <li>
+                                Assisted in production operations to maintain
+                                smooth workflow and timely execution.
+                            </li>
+
+                            <li>
+                                Developed time-management skills by handling
+                                multiple responsibilities within deadlines.
+                            </li>
+
+                            <li>
+                                Delivered conference presentations, improving
+                                communication and public-speaking skills.
+                            </li>
+                        </ul>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-number">02</div>
+
+                        <span class="project-label">WEB PROJECT</span>
+
+                        <h3>Income Tax Calculator</h3>
+
+                        <p class="project-date">
+                            2025 · HTML · CSS · JavaScript
+                        </p>
+
+                        <ul>
+                            <li>
+                                Developed a web-based income-tax calculator.
+                            </li>
+
+                            <li>
+                                Allowed users to enter income and instantly
+                                receive a tax calculation.
+                            </li>
+
+                            <li>
+                                Focused on usability, accuracy and responsive design.
+                            </li>
+                        </ul>
+
+                    </article>
+
+                </div>
+
             </div>
-        </div>
-    </div>
+
+
+            <!-- ================= ACTIVITIES ================= -->
+            <div id="activities" class="section activities-section">
+
+                <div class="section-heading">
+                    <span>BEYOND ACADEMICS</span>
+                    <h2>Activities</h2>
+                </div>
+
+                <div class="activities-grid">
+
+                    <article class="activity-card">
+                        <span class="activity-icon">⚙️</span>
+
+                        <h3>Technicia Club</h3>
+                        <span class="activity-role">
+                            Student Coordinator · 2024–2026
+                        </span>
+
+                        <ul>
+                            <li>Served as a Student Coordinator for technical competitions.</li>
+                            <li>Assisted with planning and scheduling.</li>
+                            <li>Coordinated with faculty and participants.</li>
+                            <li>Promoted events and increased student engagement.</li>
+                        </ul>
+                    </article>
+
+
+                    <article class="activity-card">
+                        <span class="activity-icon">❤️</span>
+
+                        <h3>Youth Red Cross</h3>
+                        <span class="activity-role">
+                            Coordinator · 2024–2026
+                        </span>
+
+                        <ul>
+                            <li>Organized awareness campaigns and blood donation drives.</li>
+                            <li>Conducted workshops and first-aid training sessions.</li>
+                            <li>Led volunteer teams in social-service projects.</li>
+                            <li>Promoted humanitarian values among students.</li>
+                        </ul>
+                    </article>
+
+
+                    <article class="activity-card">
+                        <span class="activity-icon">🎖️</span>
+
+                        <h3>National Cadet Corps</h3>
+                        <span class="activity-role">
+                            Junior Under Officer (J.U.O.)
+                        </span>
+
+                        <p>
+                            2019–2021 · St. Anthony's Secondary School<br>
+                            2023–2026 · DAV Centenary College
+                        </p>
+
+                        <ul>
+                            <li>Developed leadership and discipline through NCC training.</li>
+                            <li>Represented my institution in events and training camps.</li>
+                        </ul>
+                    </article>
+
+
+                    <article class="activity-card">
+                        <span class="activity-icon">🗳️</span>
+
+                        <h3>Voter's Club</h3>
+                        <span class="activity-role">
+                            Ambassador · 2023–2024
+                        </span>
+
+                        <ul>
+                            <li>Spread awareness about the importance of voting.</li>
+                            <li>Performed street plays to educate the public about voting rights.</li>
+                        </ul>
+                    </article>
+
+
+                    <article class="activity-card">
+                        <span class="activity-icon">🎨</span>
+
+                        <h3>Fine Arts Club</h3>
+                        <span class="activity-role">
+                            Assistant Head · 2023–2024
+                        </span>
+
+                        <ul>
+                            <li>Provided a platform for student creativity.</li>
+                            <li>Participated in competitions including MDU Youth Fest.</li>
+                            <li>Helped organize and manage fine-arts events.</li>
+                        </ul>
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= CERTIFICATE ================= -->
+            <div id="certification" class="section certification-section">
+
+                <div class="certificate-card">
+
+                    <div class="certificate-icon">
+                        <img src="logo/pyhton.png">
+                    </div>
+
+                    <span class="certificate-label">
+                        CERTIFICATION
+                    </span>
+
+                    <h2>Python Programming</h2>
+
+                    <div class="certificate-meta">
+                        2024 · DAV Centenary College · Dreamer Infotech
+                    </div>
+
+                    <p>
+                        Completed an on-campus Python programming course
+                        conducted in collaboration with Dreamer Infotech.
+                        The course strengthened my understanding of Python
+                        programming fundamentals and practical problem-solving.
+                    </p>
+
+                    <div class="skill">
+                        <span>Python</span>
+                        <span>Programming</span>
+                        <span>Problem Solving</span>
+                        <span>Fundamentals</span>
+                    </div>
+
+                    <!-- Replace # with your actual certificate PDF/image -->
+                    <a href="#" class="certificate-btn">
+                        View Certificate →
+                    </a>
+
+                </div>
+                <!-- <div class="certificate-card">
+
+                    <div class="certificate-icon">
+                        <img src="logo/pyhton.png">
+                    </div>
+
+                    <span class="certificate-label">
+                        CERTIFICATION
+                    </span>
+
+                    <h2>Python Programming</h2>
+
+                    <div class="certificate-meta">
+                        2024 · DAV Centenary College · Dreamer Infotech
+                    </div>
+
+                    <p>
+                        Completed an on-campus Python programming course
+                        conducted in collaboration with Dreamer Infotech.
+                        The course strengthened my understanding of Python
+                        programming fundamentals and practical problem-solving.
+                    </p>
+
+                    <div class="skill">
+                        <span>Python</span>
+                        <span>Programming</span>
+                        <span>Problem Solving</span>
+                        <span>Fundamentals</span>
+                    </div>
+
+                    <a href="#" class="certificate-btn">
+                        View Certificate →
+                    </a>
+
+                </div> -->
+            </div>
+
+        </section>
+
+    </main>
+
+
     <footer>
-    <p class="copyright">&copy; 2025 All rights reserved.</p>
+        <p>&copy; 2026 Vijjwal Kaushik. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
