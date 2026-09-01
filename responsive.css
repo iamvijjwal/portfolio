@@ -1,0 +1,563 @@
+/* =========================================================
+   MOBILE RESPONSIVE DESIGN
+========================================================= */
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        height: auto;
+        min-height: 100vh;
+        display: block;
+        padding: 15px 10px 50px;
+        background-attachment: fixed;
+    }
+
+    /* =====================================================
+       MAIN CONTAINER
+    ===================================================== */
+
+    .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* =====================================================
+       PROFILE
+    ===================================================== */
+
+    .profile {
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        padding: 30px 20px 20px;
+        border-radius: 16px;
+    }
+
+    .side-nav {
+        top: 12px;
+        left: 12px;
+    }
+
+    .side-nav img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .profile-pic-container {
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
+
+    .profile-pic-container img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile-info h1 {
+        font-size: 20px;
+    }
+
+    .profile-info p {
+        font-size: 13px;
+    }
+
+    .social-icons {
+        margin: 16px 0;
+        gap: 10px;
+    }
+
+    .social-icons a {
+        width: 36px;
+        height: 36px;
+    }
+
+    .social-icons img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .profile-actions {
+        max-width: 320px;
+        gap: 8px;
+    }
+
+    .action-btn {
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+
+    .profile-copyright {
+        margin-top: 8px;
+    }
+
+    /* =====================================================
+       SECTION NAVIGATION
+    ===================================================== */
+
+    .btn-bg {
+        width: 100%;
+        height: auto;
+        min-height: 65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 6px;
+        padding: 5px;
+        border-radius: 12px;
+
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        /* Hide scrollbar */
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .btn-bg::-webkit-scrollbar {
+        display: none;
+    }
+
+    .btn-2 {
+        flex: 0 0 70px;
+        width: 70px;
+        height: 55px;
+        min-height: 55px;
+        border-radius: 9px;
+        font-size: 9px;
+        gap: 3px;
+    }
+
+    .btn-2 span:first-child {
+        font-size: 17px;
+    }
+
+    .btn-2:hover,
+    .btn-2.active {
+        transform: translateY(-2px);
+    }
+
+    /* =====================================================
+       MAIN CONTENT
+    ===================================================== */
+
+    .content {
+        width: 100%;
+        height: auto;
+        min-height: 600px;
+        max-height: none;
+        border-radius: 16px;
+        overflow: visible;
+    }
+
+    /* =====================================================
+       COMMON SECTION
+    ===================================================== */
+
+    .section {
+        width: 100%;
+        min-height: auto;
+        padding: 30px 18px;
+    }
+
+    /* =====================================================
+       HOME
+    ===================================================== */
+
+    #home {
+        min-height: 600px;
+        padding: 30px 18px;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .welcome-badge {
+        padding: 6px 12px;
+        margin-bottom: 15px;
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .hero-content h2 {
+        font-size: 38px;
+        line-height: 1.15;
+        margin-bottom: 15px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .hero-tags {
+        gap: 7px;
+        margin-top: 18px;
+    }
+
+    .hero-tags span {
+        padding: 7px 10px;
+        font-size: 10px;
+    }
+
+    /* =====================================================
+       SECTION HEADING
+    ===================================================== */
+
+    .section-heading {
+        margin-bottom: 25px;
+    }
+
+    .section-heading span {
+        font-size: 9px;
+        letter-spacing: 1.5px;
+    }
+
+    .section-heading h2 {
+        font-size: 28px;
+    }
+
+    /* =====================================================
+       EDUCATION
+    ===================================================== */
+
+    .education-section {
+        padding-top: 30px;
+    }
+
+    .timeline {
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .timeline::after {
+        left: 12px;
+        width: 3px;
+    }
+
+    .timeline-item,
+    .timeline-item.left,
+    .timeline-item.right {
+        width: 100%;
+        left: 0;
+        padding: 10px 0 10px 30px;
+        text-align: left;
+    }
+
+    .timeline-card,
+    .timeline-item.left .timeline-card {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 12px;
+    }
+
+    .timeline-card img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .timeline-card h3 {
+        font-size: 13px;
+    }
+
+    .timeline-card p {
+        font-size: 11px;
+    }
+
+    .year {
+        font-size: 10px;
+    }
+
+    /* =====================================================
+       SKILLS
+    ===================================================== */
+
+    .skills-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .skill-card {
+        width: 100%;
+        flex: none;
+        padding: 20px;
+        overflow: visible;
+    }
+
+    .skill-icon {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+
+    .skill-card h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .skill-card li {
+        padding: 5px 0 5px 17px;
+        font-size: 13px;
+    }
+
+    /* =====================================================
+       PROJECTS
+    ===================================================== */
+
+    .project-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .project-card {
+        width: 100%;
+        flex: none;
+        padding: 22px;
+        overflow: visible;
+    }
+
+    .project-number {
+        top: 12px;
+        right: 15px;
+        font-size: 24px;
+    }
+
+    .project-card h3 {
+        font-size: 19px;
+        margin: 8px 0;
+    }
+
+    .project-date {
+        margin-bottom: 14px;
+        font-size: 11px;
+    }
+
+    .project-card li {
+        margin-bottom: 7px;
+        font-size: 13px;
+        line-height: 1.45;
+    }
+
+    /* =====================================================
+       ACTIVITIES
+    ===================================================== */
+
+    .activities-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding-bottom: 30px;
+    }
+
+    .activity-card {
+        width: 100%;
+        padding: 18px;
+    }
+
+    .activity-icon {
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+
+    .activity-card h3 {
+        font-size: 17px;
+    }
+
+    .activity-role {
+        font-size: 11px;
+        margin-bottom: 9px;
+    }
+
+    .activity-card p {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+    .activity-card li {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    /* =====================================================
+       CERTIFICATION
+    ===================================================== */
+
+    .certification-section {
+        padding: 30px 15px;
+        gap: 15px;
+    }
+
+    .certificate-card {
+        width: 100%;
+        padding: 30px 18px;
+        border-radius: 16px;
+    }
+
+    .certificate-icon img {
+        width: 75px;
+    }
+
+    .certificate-label {
+        font-size: 9px;
+        letter-spacing: 1.5px;
+    }
+
+    .certificate-card h2 {
+        font-size: 23px;
+        margin: 8px 0;
+    }
+
+    .certificate-meta {
+        font-size: 11px;
+        margin-bottom: 14px;
+    }
+
+    .certificate-card p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .skill {
+        gap: 6px;
+        margin: 17px 0;
+    }
+
+    .skill span {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+
+    .certificate-btn {
+        padding: 10px 17px;
+        font-size: 12px;
+    }
+
+    /* =====================================================
+       FOOTER
+    ===================================================== */
+
+    footer {
+        height: 32px;
+        font-size: 9px;
+        z-index: 100;
+    }
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+   480px and below
+========================================================= */
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 10px 7px 45px;
+    }
+
+    .profile {
+        padding: 28px 15px 18px;
+    }
+
+    .profile-pic-container img {
+        width: 105px;
+        height: 105px;
+    }
+
+    .profile-info h1 {
+        font-size: 18px;
+    }
+
+    .profile-info p {
+        font-size: 12px;
+    }
+
+    .social-icons {
+        gap: 7px;
+    }
+
+    .social-icons a {
+        width: 34px;
+        height: 34px;
+    }
+
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .btn-2 {
+        flex-basis: 62px;
+        width: 62px;
+        height: 52px;
+        min-height: 52px;
+        font-size: 8px;
+    }
+
+    .btn-2 span:first-child {
+        font-size: 15px;
+    }
+
+    .section {
+        padding: 25px 14px;
+    }
+
+    #home {
+        min-height: 550px;
+        padding: 25px 12px;
+    }
+
+    .hero-content h2 {
+        font-size: 32px;
+    }
+
+    .hero-content p {
+        font-size: 13px;
+    }
+
+    .section-heading h2 {
+        font-size: 25px;
+    }
+
+    .timeline-card {
+        padding: 10px;
+    }
+
+    .timeline-card img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .timeline-card h3 {
+        font-size: 12px;
+    }
+
+    .timeline-card p {
+        font-size: 10px;
+    }
+
+    .skill-card,
+    .project-card,
+    .activity-card {
+        padding: 17px;
+    }
+
+    .certificate-card {
+        padding: 25px 14px;
+    }
+
+    .certificate-card h2 {
+        font-size: 21px;
+    }
+}
