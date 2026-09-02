@@ -660,6 +660,61 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(8, 127, 245, 0.3);
 }
+
+/* Salesforce Trailhead Stats */
+.trailhead-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    gap: 12px;
+    width: 90%;
+}
+
+.trail-stat {
+    flex: 1;
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.trail-stat strong {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.trail-stat span {
+    margin-top: 4px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Salesforce skills */
+#salesforce .skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0 25px;
+}
+
+#salesforce .skill span {
+    background: #ffffff;
+    color: #ef5350;
+    padding: 9px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
 /* =========================================================
    FOOTER
 ========================================================= */
