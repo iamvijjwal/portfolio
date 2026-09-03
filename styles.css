@@ -19,7 +19,7 @@
     --text-light: #d9e1ec;
     --education: #8e7dff;
     --skills: #1abc9c;
-    --project: #3498db;
+    --exp: #3498db;
     --activities: #f39c12;
     --certificate: #e74c3c;
 }
@@ -477,13 +477,13 @@ body {
     color: var(--primary);
 }
 /* =========================================================
-   PROJECTS
+   EXPERIENCE
 ========================================================= */
-.project-grid {
+.exp-grid {
     display: flex;
     gap: 22px;
 }
-.project-card {
+.exp-card {
     position: relative;
     flex: 1;
     padding: 28px;
@@ -493,11 +493,11 @@ body {
     transition: 0.3s ease;
     overflow:auto;
 }
-.project-card:hover {
+.exp-card:hover {
     transform: translateY(-6px);
     background: rgba(255, 255, 255, 0.15);
 }
-.project-number {
+.exp-number {
     position: absolute;
     top: 15px;
     right: 20px;
@@ -505,25 +505,25 @@ body {
     font-weight: bold;
     color: rgba(255, 255, 255, 0.1);
 }
-.project-label {
+.exp-label {
     color: var(--primary);
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 1.5px;
 }
-.project-card h3 {
+.exp-card h3 {
     margin: 10px 0;
     font-size: 22px;
 }
-.project-date {
+.exp-date {
     margin-bottom: 18px;
     color: rgba(255, 255, 255, 0.65);
     font-size: 12px;
 }
-.project-card ul {
+.exp-card ul {
     padding-left: 18px;
 }
-.project-card li {
+.exp-card li {
     margin-bottom: 9px;
     color: rgba(255, 255, 255, 0.85);
     font-size: 14px;
@@ -584,13 +584,13 @@ body {
 /* =========================================================
    CERTIFICATE
 ========================================================= */
-.certification-section {
+.cert-grid {
     display: flex;
     width: 100%;
     height: 100%;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center; 
+    /* align-items: center;  */
     overflow: auto;
     gap: 30px;
 }
@@ -604,7 +604,6 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
     backdrop-filter: blur(10px);
-    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
 }
 .certificate-icon img{
   width: 100px;
@@ -736,7 +735,7 @@ footer {
 
 #edu,
 #skills,
-#project,
+#exp,
 #activities,
 #certification{
   display: none;
