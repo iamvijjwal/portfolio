@@ -270,6 +270,7 @@ body {
     width: 100%;
     height: 100%;
     padding: 25px;
+    display: flex;
     animation: fadeIn 0.45s ease;
 }
 @keyframes fadeIn {
@@ -604,6 +605,10 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
     backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .certificate-icon img{
   width: 100px;

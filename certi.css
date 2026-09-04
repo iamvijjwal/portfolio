@@ -1,0 +1,306 @@
+
+/* ==========================================
+   MAIN CERTIFICATE CARD
+========================================== */
+
+#allcert {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    overflow: visible;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* ==========================================
+   CERTIFICATE GRID
+========================================== */
+
+#allcert .all-certificates-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    box-sizing: border-box;
+    height: auto;
+}
+
+
+/* ==========================================
+   INDIVIDUAL CERTIFICATE CARD
+========================================== */
+
+#allcert .all-certificate-item {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    min-height: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* ==========================================
+   CARD HOVER
+========================================== */
+
+#allcert .all-certificate-item:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.18);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.20);
+}
+
+
+/* ==========================================
+   CERTIFICATE IMAGE CONTAINER
+========================================== */
+
+#allcert .all-certificate-image {
+    width: 100%;
+    height: 230px;
+    box-sizing: border-box;
+    background: #ffffff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ==========================================
+   CERTIFICATE IMAGE
+========================================== */
+
+#allcert .all-certificate-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    object-position: center;
+    background: #ffffff;
+}
+
+
+/* ==========================================
+   CERTIFICATE INFO
+========================================== */
+
+#allcert .all-certificate-info {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+
+/* ==========================================
+   CERTIFICATE TITLE
+========================================== */
+
+#allcert .all-certificate-info h3 {
+    margin: 0 0 8px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+
+/* ==========================================
+   CERTIFICATE DESCRIPTION
+========================================== */
+
+#allcert .all-certificate-info p {
+    margin: 0 0 8px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* ==========================================
+   CERTIFICATE CATEGORY / DATE
+========================================== */
+
+#allcert .all-certificate-info span {
+    display: block;
+    margin-bottom: 12px;
+    color: #00ffff;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+
+/* ==========================================
+   VIEW CERTIFICATE BUTTON
+========================================== */
+
+#allcert .all-certificate-info a {
+    display: inline-block;
+    padding: 9px 15px;
+    border-radius: 8px;
+    background: #008cff;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 600;
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+/* ==========================================
+   BUTTON HOVER
+========================================== */
+
+#allcert .all-certificate-info a:hover {
+    background: #0073d1;
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   IMPORTANT:
+   PREVENT PARENT CONTAINERS FROM CUTTING OFF CERTIFICATES
+   ========================================================= */
+
+.cert-grid {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+}
+
+
+/* If your other certificate cards have fixed heights,
+   don't let #allcert inherit those restrictions. */
+
+.cert-grid .certificate-card#allcert {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    #allcert .all-certificates-grid {
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 16px;
+    }
+
+
+    #allcert .all-certificate-image {
+
+        height: 200px;
+    }
+
+
+    #allcert .all-certificate-info {
+
+        padding: 14px;
+    }
+
+
+    #allcert .all-certificate-info h3 {
+
+        font-size: 18px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    #allcert .all-certificates-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 16px;
+    }
+
+
+    #allcert .all-certificate-image {
+
+        height: 220px;
+    }
+
+
+    #allcert .all-certificate-info {
+
+        padding: 14px;
+    }
+
+
+    #allcert .all-certificate-info h3 {
+
+        font-size: 18px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 450px) {
+
+    #allcert .all-certificate-image {
+
+        height: 190px;
+    }
+
+
+    #allcert .all-certificate-info {
+
+        padding: 12px;
+    }
+
+
+    #allcert .all-certificate-info h3 {
+
+        font-size: 17px;
+    }
+
+
+    #allcert .all-certificate-info p {
+
+        font-size: 13px;
+    }
+
+
+    #allcert .all-certificate-info span {
+
+        font-size: 13px;
+    }
+
+
+    #allcert .all-certificate-info a {
+
+        padding: 8px 12px;
+
+        font-size: 12px;
+    }
+
+}
