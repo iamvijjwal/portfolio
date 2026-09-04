@@ -12,91 +12,91 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================
 
     {
-        image: "certificates/ANTHONY_CERT (1).jpg",
+        image: "Certificates/ANTHONY_CERT (1).jpg",
         title: "School Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_CERT (2).jpg",
+        image: "Certificates/ANTHONY_CERT (2).jpg",
         title: "School Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_CERT (3).jpg",
+        image: "Certificates/ANTHONY_CERT (3).jpg",
         title: "School Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_CERT (4).jpg",
+        image: "Certificates/ANTHONY_CERT (4).jpg",
         title: "School Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_CERT.jpg",
+        image: "Certificates/ANTHONY_CERT.jpg",
         title: "School Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_III.jpg",
+        image: "Certificates/ANTHONY_III.jpg",
         title: "School Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_IV.jpg",
+        image: "Certificates/ANTHONY_IV.jpg",
         title: "School Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_TALENT_HUNT.jpg",
+        image: "Certificates/ANTHONY_TALENT_HUNT.jpg",
         title: "Talent Hunt Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_V.jpg",
+        image: "Certificates/ANTHONY_V.jpg",
         title: "School Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_VC.jpg",
+        image: "Certificates/ANTHONY_VC.jpg",
         title: "School Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_VC_MP.jpg",
+        image: "Certificates/ANTHONY_VC_MP.jpg",
         title: "School Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_VI.jpg",
+        image: "Certificates/ANTHONY_VI.jpg",
         title: "School Certificate",
         organization: "St. Anthony's Secondary School",
         year: "2021"
     },
 
     {
-        image: "certificates/ANTHONY_YATT.jpg",
+        image: "Certificates/ANTHONY_YATT.jpg",
         title: "Certificate of Participation",
         organization: "YATT",
         year: "2021"
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================
 
     {
-        image: "certificates/CPR.jpg",
+        image: "Certificates/CPR.jpg",
         title: "First Aid & CPR Training",
         organization: "Sarvodaya",
         year: "2021"
@@ -120,21 +120,21 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================
 
     {
-        image: "certificates/DAV_CERT (3).jpg",
+        image: "Certificates/DAV_CERT (3).jpg",
         title: "Certificate of Completion",
         organization: "DAV Centenary College, Faridabad",
         year: "2022"
     },
 
     {
-        image: "certificates/DAV_CERT.jpg",
+        image: "Certificates/DAV_CERT.jpg",
         title: "Certificate of Participation",
         organization: "DAV Centenary College, Faridabad",
         year: "2022"
     },
 
     {
-        image: "certificates/DAV_CERT (2).jpg",
+        image: "Certificates/DAV_CERT (2).jpg",
         title: "Certificate of Participation",
         organization: "DAV Centenary College, Faridabad",
         year: "2022"
@@ -146,21 +146,21 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================
 
     {
-        image: "certificates/JOHNS_ACTIVITY.jpg",
+        image: "Certificates/JOHNS_ACTIVITY.jpg",
         title: "Activity Certificate",
         organization: "St. John's School",
         year: "2022"
     },
 
     {
-        image: "certificates/JOHNS_SPORTS (1).jpg",
+        image: "Certificates/JOHNS_SPORTS (1).jpg",
         title: "Sports Certificate",
         organization: "St. John's School",
         year: "2022"
     },
 
     {
-        image: "certificates/JOHNS_SPORTS (2).jpg",
+        image: "Certificates/JOHNS_SPORTS (2).jpg",
         title: "Sports Certificate",
         organization: "St. John's School",
         year: "2022"
@@ -172,77 +172,77 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================
 
     {
-        image: "certificates/NCC (1).jpg",
+        image: "Certificates/NCC (1).jpg",
         title: "Certificate of Appreciation",
         organization: "NCC",
         year: "2022"
     },
 
     {
-        image: "certificates/NCC (2).jpg",
+        image: "Certificates/NCC (2).jpg",
         title: "Certificate of Appreciation",
         organization: "NCC",
         year: "2022"
     },
 
     {
-        image: "certificates/NCC (3).jpg",
+        image: "Certificates/NCC (3).jpg",
         title: "Certificate of Appreciation",
         organization: "NCC",
         year: "2022"
     },
 
     {
-        image: "certificates/NCC_A_cert.jpg",
+        image: "Certificates/NCC_A_cert.jpg",
         title: "NCC Certificate",
         organization: "National Cadet Corps",
         year: "2022"
     },
 
     {
-        image: "certificates/NCC_B_Cert.jpg",
+        image: "Certificates/NCC_B_Cert.jpg",
         title: "NCC Certificate",
         organization: "National Cadet Corps",
         year: "2022"
     },
 
     {
-        image: "certificates/NCC_C_cert.jpg",
+        image: "Certificates/NCC_C_cert.jpg",
         title: "NCC Certificate",
         organization: "National Cadet Corps",
         year: "2022"
     },
 
     {
-        image: "certificates/NCC_CAMP_ATC142.jpg",
+        image: "Certificates/NCC_CAMP_ATC142.jpg",
         title: "NCC Camp Certificate",
         organization: "National Cadet Corps",
         year: "2022"
     },
 
     {
-        image: "certificates/NCC_CAMP_CATC162.jpg",
+        image: "Certificates/NCC_CAMP_CATC162.jpg",
         title: "NCC Camp Certificate",
         organization: "National Cadet Corps",
         year: "2022"
     },
 
     {
-        image: "certificates/NCC_CAMP_EBSB.jpg",
+        image: "Certificates/NCC_CAMP_EBSB.jpg",
         title: "NCC Camp Certificate",
         organization: "National Cadet Corps",
         year: "2022"
     },
 
     {
-        image: "certificates/NCC_CAMP_SNIC.jpg",
+        image: "Certificates/NCC_CAMP_SNIC.jpg",
         title: "NCC Camp Certificate",
         organization: "National Cadet Corps",
         year: "2022"
     },
 
     {
-        image: "certificates/NCC_CAMP_YAMS.jpg",
+        image: "Certificates/NCC_CAMP_YAMS.jpg",
         title: "NCC Camp Certificate",
         organization: "National Cadet Corps",
         year: "2022"
@@ -250,19 +250,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // ==========================================
-    // OTHER CERTIFICATES
+    // OTHER Certificates
     // ==========================================
 
 
     {
-        image: "certificates/Python.jpg",
+        image: "Certificates/Python.jpg",
         title: "Python Certificate",
         organization: "Python",
         year: "2023"
     },
 
     {
-        image: "certificates/Python_dreamer.jpg",
+        image: "Certificates/Python_dreamer.jpg",
         title: "Python Certificate",
         organization: "Dreamer",
         year: "2023"
@@ -275,21 +275,21 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================
 
     {
-        image: "certificates/TECHNICIA.jpg",
+        image: "Certificates/TECHNICIA.jpg",
         title: "Technicia Certificate",
         organization: "Technicia",
         year: "2023"
     },
 
     {
-        image: "certificates/TECHNICIA_Conference_ICPR.png",
+        image: "Certificates/TECHNICIA_Conference_ICPR.png",
         title: "Conference Certificate",
         organization: "Technicia Conference",
         year: "2023"
     },
 
     {
-        image: "certificates/TECHNICIA_Conference_ICSSR.jpg",
+        image: "Certificates/TECHNICIA_Conference_ICSSR.jpg",
         title: "Conference Certificate",
         organization: "Technicia Conference",
         year: "2023"
@@ -301,7 +301,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================
 
     {
-        image: "certificates/YRC.jpg",
+        image: "Certificates/YRC.jpg",
         title: "Certificate of Appreciation",
         organization: "Indian Red Cross Society",
         year: "2023"
