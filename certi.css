@@ -173,12 +173,7 @@
    IMPORTANT:
    PREVENT PARENT CONTAINERS FROM CUTTING OFF CERTIFICATES
    ========================================================= */
-
-.cert-grid {
-    height: auto;
-    min-height: 0;
-    max-height: none;
-}
+/* 
 
 
 /* If your other certificate cards have fixed heights,
@@ -191,45 +186,6 @@
     overflow: visible !important;
 }
 
-
-/* =========================================================
-   TABLET
-   ========================================================= */
-
-@media (max-width: 900px) {
-
-    #allcert .all-certificates-grid {
-
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-
-        gap: 16px;
-    }
-
-
-    #allcert .all-certificate-image {
-
-        height: 200px;
-    }
-
-
-    #allcert .all-certificate-info {
-
-        padding: 14px;
-    }
-
-
-    #allcert .all-certificate-info h3 {
-
-        font-size: 18px;
-    }
-
-}
-
-
-/* =========================================================
-   MOBILE
-   ========================================================= */
-
 @media (max-width: 700px) {
 
     #allcert .all-certificates-grid {
@@ -239,68 +195,5 @@
         gap: 16px;
     }
 
-
-    #allcert .all-certificate-image {
-
-        height: 220px;
-    }
-
-
-    #allcert .all-certificate-info {
-
-        padding: 14px;
-    }
-
-
-    #allcert .all-certificate-info h3 {
-
-        font-size: 18px;
-    }
-
-}
-
-
-/* =========================================================
-   SMALL MOBILE
-   ========================================================= */
-
-@media (max-width: 450px) {
-
-    #allcert .all-certificate-image {
-
-        height: 190px;
-    }
-
-
-    #allcert .all-certificate-info {
-
-        padding: 12px;
-    }
-
-
-    #allcert .all-certificate-info h3 {
-
-        font-size: 17px;
-    }
-
-
-    #allcert .all-certificate-info p {
-
-        font-size: 13px;
-    }
-
-
-    #allcert .all-certificate-info span {
-
-        font-size: 13px;
-    }
-
-
-    #allcert .all-certificate-info a {
-
-        padding: 8px 12px;
-
-        font-size: 12px;
-    }
 
 }
