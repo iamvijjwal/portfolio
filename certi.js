@@ -330,7 +330,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img
                     src="${cert.image}"
                     alt="${cert.title}"
-                    loading="lazy"
+                    loading="fast"
                 >
 
             </div>
